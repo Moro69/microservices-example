@@ -1,7 +1,7 @@
-package com.microservices.example.controllers;
+package com.microservices.example.controller;
 
 import com.microservices.example.domain.responses.GetMovieByIdResponse;
-import com.microservices.example.services.MovieSearchService;
+import com.microservices.example.service.MovieSearchService;
 import lombok.extern.log4j.Log4j2;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;

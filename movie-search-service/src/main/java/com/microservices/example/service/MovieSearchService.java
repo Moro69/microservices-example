@@ -1,4 +1,4 @@
-package com.microservices.example.services;
+package com.microservices.example.service;
 
 import com.microservices.example.domain.responses.GetMovieByIdResponse;
 import lombok.extern.log4j.Log4j2;
