@@ -9,5 +9,12 @@ eureka:
       defaultZone: ${EUREKA_URI:http://localhost:8761/eureka}
   instance:
       hostname: localhost
+
 zuul:
-  ignoredServices: '*'
+  prefix: /api
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
